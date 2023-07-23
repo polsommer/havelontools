@@ -1,0 +1,7 @@
+RANK	RADIUS	POPULATION	STRING
+i	i	i	s
+1	250	5	@city/city:rank1
+2	350	5	@city/city:rank2
+3	500	5	@city/city:rank3
+4	600	5	@city/city:rank4
+5	750	10	@city/city:rank5

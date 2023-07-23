@@ -1,0 +1,15 @@
+area	x1	z1	x2	z2	useClipRect	clipRectX1	clipRectZ1	clipRectX2	clipRectZ2	envFlags	envFlagsExclude	useOrigin	originX	originZ	compositeX1	compositeZ1	compositeX2	compositeZ2	compositeName	isolated	allowMap	internal	allowRadarTerrain	eventRequired	requiredLoadLevel
+s	f	f	f	f	b[0]	f[0]	f[0]	f[0]	f[0]	i[0xff]	i[0x00]	b[0]	f[0]	f[0]	f[0]	f[0]	f[0]	f[0]	s	b[1]	b[1]	b[0]	b[1]	s	s
+npe_shared_station	-300	0	0	300																					light
+npe_shared_station	-1200	0	-900	300																					medium
+npe_shared_station	-2100	0	-1800	300																					medium
+npe_shared_station	-3000	0	-2700	300																					heavy
+npe_shared_station	-3900	0	-3600	300																					heavy
+npe_shared_station	-4800	0	-4500	300																					heavy
+nova_orion_station	-5700	0	-5400	300																					
+npe_dungeon	-400	800	0	1350																					light
+npe_dungeon	-1300	800	-900	1350																					medium
+npe_dungeon	-2200	800	-1800	1350																					medium
+npe_dungeon	-3100	800	-2700	1350																					heavy
+npe_dungeon	-4000	800	-3600	1350																					heavy
+npe_dungeon	-4900	800	-4500	1350																					heavy

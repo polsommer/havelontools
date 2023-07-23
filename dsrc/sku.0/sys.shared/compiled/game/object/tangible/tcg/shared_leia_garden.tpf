@@ -1,0 +1,17 @@
+@base object/tangible/furniture/base/shared_furniture_base.iff
+
+@class tangible_object_template 6
+
+@class object_template 5
+
+snapToTerrain = true
+
+objectName = "frn_d" "leia_garden"
+
+detailedDescription = "frn_n" "leia_garden"
+
+appearanceFilename = "appearance/leia_garden.apt"
+portalLayoutFilename = ""
+
+gameObjectType = GOT_misc_item
+
