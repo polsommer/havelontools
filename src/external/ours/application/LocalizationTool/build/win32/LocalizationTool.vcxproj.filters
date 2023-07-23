@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{040caeec-2819-406d-a188-ca3cd5fbee09}</UniqueIdentifier>
+      <Extensions>cpp;c;rc</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{39044759-d845-4cc5-ba6a-1ad1a692bdc5}</UniqueIdentifier>
+      <Extensions>def;h;hpp;inl</Extensions>
+    </Filter>
+    <Filter Include="Ui Files">
+      <UniqueIdentifier>{c473b59c-e34b-4541-b8dc-4477921900de}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Ui Generated Files">
+      <UniqueIdentifier>{c6ced77b-8991-4143-86f2-f432b18d5524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug">
+      <UniqueIdentifier>{4a62cd01-7ceb-4d05-a2c8-8f5bbc113658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Source Files">
+      <UniqueIdentifier>{307905da-99d5-4eff-a420-972715acff17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Header Files">
+      <UniqueIdentifier>{2d9062cc-bc01-477a-8a5f-920e91cf9a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized">
+      <UniqueIdentifier>{804e6262-4f82-461f-b448-0a7ac1f6e686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Source Files">
+      <UniqueIdentifier>{8a698146-9e36-4a55-8959-15296ec66864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Header Files">
+      <UniqueIdentifier>{10ac5a8b-17e9-4029-a8bc-82bc36ff61d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release">
+      <UniqueIdentifier>{7c7d3189-8aeb-4f65-b11a-e1719ed77ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Source Files">
+      <UniqueIdentifier>{9a1218a9-6d16-4c59-b1f1-d0bcbd2fd1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Header Files">
+      <UniqueIdentifier>{c20d711a-ff21-41c6-ba31-ffebb2f5b9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eaadf88e-6ed1-4848-bc92-628da1482b83}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{405dca13-afaf-4023-8a3d-2c12bd50615f}</UniqueIdentifier>
+      <Extensions>template</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\shared\DataChangeListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\FileImporterExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocEditingWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocExportWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocImportWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocalizationData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocalizationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LocalizedStringPair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\MyMultiLineEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\PortableRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\Win32Registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_EditingWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_ExportWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_ImportWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_ListWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_EditingWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_ExportWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_ImportWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_ListWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_EditingWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_ExportWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_ImportWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_ListWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\shared\DataChangeListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\FileImporterExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\LocalizationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\LocalizationToolXpms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\LocalizedStringPair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\MyMultiLineEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\PortableRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\Win32Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_EditingWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_ExportWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_ImportWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Debug\ui_ListWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_EditingWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_ExportWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_ImportWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Optimized\ui_ListWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_EditingWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_ExportWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_ImportWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LocalizationTool\Release\ui_ListWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\src\win32\LocalizationTool.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\win32\LocalizationTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\shared\LocEditingWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\LocExportWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\LocImportWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\LocListWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\LocalizationTool.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ui_EditingWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ui_ExportWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ui_ImportWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ui_ListWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

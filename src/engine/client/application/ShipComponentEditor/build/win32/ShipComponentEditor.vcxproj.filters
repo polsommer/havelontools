@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{933f3628-fdcc-431d-adae-0f02f1fd4a55}</UniqueIdentifier>
+      <Extensions>cpp;c;rc</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a9a7940c-9755-4402-a4dd-a3ac419c4747}</UniqueIdentifier>
+      <Extensions>def;h;hpp;inl</Extensions>
+    </Filter>
+    <Filter Include="Ui Files">
+      <UniqueIdentifier>{f04f595f-4bff-4d62-bd54-d764ce144485}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Ui Generated Files">
+      <UniqueIdentifier>{1b1836d0-dfd1-4262-a37a-666ac4d458ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug">
+      <UniqueIdentifier>{5f107c50-2dda-4233-9333-d950f6b4b34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Source Files">
+      <UniqueIdentifier>{48540a5e-aff2-4272-a120-34c854d06aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Header Files">
+      <UniqueIdentifier>{31e70ca4-65e5-481c-a94f-81a8c970a004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized">
+      <UniqueIdentifier>{b6312bc1-9bad-4279-872d-511081c8efb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Source Files">
+      <UniqueIdentifier>{bad1bc12-f7d0-4c15-bcaf-5c0c170021ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Header Files">
+      <UniqueIdentifier>{64cc070a-8d0e-40b9-bf9e-3fcc259b41a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release">
+      <UniqueIdentifier>{563f41b5-8f06-4e14-974a-902b7db120fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Source Files">
+      <UniqueIdentifier>{1d9031b5-2a63-4e6d-b186-c42d8e81c6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Header Files">
+      <UniqueIdentifier>{caddc84a-b6af-485b-9c37-05b45faa16c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e7f1c759-3465-43d7-94cd-81f8d1ae40e2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{1c5ab7ce-f7e4-4584-a531-c42f1b4d9e0c}</UniqueIdentifier>
+      <Extensions>template</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\win32\AttachmentsChassisEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\AttachmentsChassisEditorDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\AttachmentsChassisEditorList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\AttachmentsChooser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\AudioDebugWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ChassisEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ChassisEditorDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ChassisEditorList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ChassisNewDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\CompatibilityConfirmDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\CompatibilityEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ComponentDescriptors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ComponentDescriptorsDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ComponentDescriptorsList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ConfigShipComponentEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\EnginePathManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\FirstShipComponentEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\QStringUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ShipComponentEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ShipComponentEditorMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ShipComponentEditorServerTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ShipComponentEditorServerTemplateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ShipComponentEditorUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\TemplateNewDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAttachmentsChassisEditorDetails_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAttachmentsChooser_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAttachmentsEditorList_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAudioDebugWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisEditor_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisEditorDetails_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisEditorList_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisNewDialog_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseCompatibilityConfirmDialog_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseCompatibilityEditor_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseComponentDescriptors_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseComponentDescriptorsDetails_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseComponentDescriptorsList_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseShipComponentEditor_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseSoundDebugInformationWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseSoundGroupTemplateWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseSoundTemplateWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseTemplateNewDialog_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAttachmentsChassisEditorDetails_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAttachmentsChooser_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAttachmentsEditorList_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAudioDebugWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisEditor_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisEditorDetails_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisEditorList_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisNewDialog_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseCompatibilityConfirmDialog_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseCompatibilityEditor_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseComponentDescriptors_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseComponentDescriptorsDetails_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseComponentDescriptorsList_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseShipComponentEditor_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseSoundDebugInformationWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseSoundGroupTemplateWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseSoundTemplateWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseTemplateNewDialog_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAttachmentsChassisEditorDetails_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAttachmentsChooser_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAttachmentsEditorList_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAudioDebugWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisEditor_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisEditorDetails_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisEditorList_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisNewDialog_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseCompatibilityConfirmDialog_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseCompatibilityEditor_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseComponentDescriptors_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseComponentDescriptorsDetails_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseComponentDescriptorsList_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseShipComponentEditor_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseSoundDebugInformationWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseSoundGroupTemplateWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseSoundTemplateWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseTemplateNewDialog_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\win32\ConfigShipComponentEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\EnginePathManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\FirstShipComponentEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\QStringUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\ShipComponentEditorServerTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\ShipComponentEditorServerTemplateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\ShipComponentEditorUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAttachmentsChassisEditorDetails.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAttachmentsChooser.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAttachmentsEditorList.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseAudioDebugWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisEditor.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisEditorDetails.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisEditorList.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseChassisNewDialog.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseCompatibilityConfirmDialog.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseCompatibilityEditor.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseComponentDescriptors.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseComponentDescriptorsDetails.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseComponentDescriptorsList.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseShipComponentEditor.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseSoundDebugInformationWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseSoundGroupTemplateWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseSoundTemplateWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Debug\BaseTemplateNewDialog.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAttachmentsChassisEditorDetails.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAttachmentsChooser.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAttachmentsEditorList.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseAudioDebugWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisEditor.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisEditorDetails.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisEditorList.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseChassisNewDialog.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseCompatibilityConfirmDialog.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseCompatibilityEditor.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseComponentDescriptors.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseComponentDescriptorsDetails.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseComponentDescriptorsList.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseShipComponentEditor.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseSoundDebugInformationWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseSoundGroupTemplateWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseSoundTemplateWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Optimized\BaseTemplateNewDialog.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAttachmentsChassisEditorDetails.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAttachmentsChooser.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAttachmentsEditorList.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseAudioDebugWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisEditor.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisEditorDetails.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisEditorList.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseChassisNewDialog.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseCompatibilityConfirmDialog.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseCompatibilityEditor.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseComponentDescriptors.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseComponentDescriptorsDetails.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseComponentDescriptorsList.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseShipComponentEditor.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseSoundDebugInformationWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseSoundGroupTemplateWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseSoundTemplateWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\ShipComponentEditor\Release\BaseTemplateNewDialog.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\win32\AttachmentsChassisEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\AttachmentsChassisEditorDetails.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\AttachmentsChassisEditorList.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\AttachmentsChooser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\AudioDebugWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ChassisEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ChassisEditorDetails.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ChassisEditorList.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ChassisNewDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\CompatibilityConfirmDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\CompatibilityEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ComponentDescriptors.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ComponentDescriptorsDetails.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ComponentDescriptorsList.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\ShipComponentEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\TemplateNewDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseAttachmentsChassisEditorDetails.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseAttachmentsChooser.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseAttachmentsEditorList.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseAudioDebugWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseChassisEditor.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseChassisEditorDetails.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseChassisEditorList.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseChassisNewDialog.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseCompatibilityConfirmDialog.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseCompatibilityEditor.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseComponentDescriptors.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseComponentDescriptorsDetails.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseComponentDescriptorsList.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseShipComponentEditor.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundDebugInformationWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundGroupTemplateWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundTemplateWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseTemplateNewDialog.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

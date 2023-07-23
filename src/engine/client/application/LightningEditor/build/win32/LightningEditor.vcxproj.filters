@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4350db66-2f0e-48c0-9b2d-a5472bb584f2}</UniqueIdentifier>
+      <Extensions>cpp;c;rc</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bcc69074-21bb-4c4c-8eac-9d41012a4703}</UniqueIdentifier>
+      <Extensions>def;h;hpp;inl</Extensions>
+    </Filter>
+    <Filter Include="Ui Files">
+      <UniqueIdentifier>{7dcfa877-3397-4a5f-8ff4-b8b1c38fa9f2}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Ui Generated Files">
+      <UniqueIdentifier>{910110c8-e165-4724-815a-b42df4b05d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug">
+      <UniqueIdentifier>{82d5c221-e7b9-4842-a1f4-abbb02fb3872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Source Files">
+      <UniqueIdentifier>{68c422c6-c289-4004-99fb-79122c065869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Header Files">
+      <UniqueIdentifier>{ea43a50a-c6fb-4bd0-a8c0-3e31893e8f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized">
+      <UniqueIdentifier>{126f1622-1689-4360-a332-ee85f0a98c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Source Files">
+      <UniqueIdentifier>{5f327784-3a28-4efb-ac8e-29c36972e9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Header Files">
+      <UniqueIdentifier>{95d2088c-69d4-4ef0-a361-8186ba645a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release">
+      <UniqueIdentifier>{f21d1dc4-7499-48ae-b47d-34f252fee0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Source Files">
+      <UniqueIdentifier>{a0677c34-f0a2-48df-b7d0-d42589bebd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Header Files">
+      <UniqueIdentifier>{dc2722ad-efc8-4a19-a843-1b5cc9263abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{bc4d7b87-1a7f-4d56-8bcf-b42579efc6df}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{17130f68-7e3e-427e-b8bd-f5df183d434b}</UniqueIdentifier>
+      <Extensions>template</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\win32\FirstLightningEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\LightningEditorGameWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\LightningEditorIoWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\QtUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LightningEditor\Debug\BaseMainWindow_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LightningEditor\Optimized\BaseMainWindow_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\LightningEditor\Release\BaseMainWindow_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\win32\FirstLightningEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\LightningEditorIoWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\QtUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LightningEditor\Debug\BaseMainWindow.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LightningEditor\Optimized\BaseMainWindow.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\LightningEditor\Release\BaseMainWindow.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\win32\LightningEditorGameWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseMainWindow.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

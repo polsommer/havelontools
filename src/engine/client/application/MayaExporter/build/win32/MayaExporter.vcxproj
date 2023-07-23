@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Optimized|Win32">
+      <Configuration>Optimized</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BBB380AC-AA99-4177-8F4F-4CD5AAEA1199}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\../../../../../../compile/win32/MayaExporter/Release\</OutDir>
+    <IntDir>.\../../../../../../compile/win32/MayaExporter/Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">
+    <OutDir>.\../../../../../../compile/win32/MayaExporter/Optimized\</OutDir>
+    <IntDir>.\../../../../../../compile/win32/MayaExporter/Optimized\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\../../../../../../compile/win32/MayaExporter/Debug\</OutDir>
+    <IntDir>.\../../../../../../compile/win32/MayaExporter/Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\../../../../../../compile/win32/MayaExporter/Release/MayaExporter.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\external\3rd\library\alienbrain123\include;..\..\..\..\..\..\external\3rd\library\ati_compress;..\..\..\..\..\..\external\3rd\library\atidxtc;..\..\..\..\..\..\external\3rd\library\atl\include;..\..\..\..\..\..\external\3rd\library\boost;..\..\..\..\..\..\external\3rd\library\maya7\include;..\..\..\..\..\..\external\3rd\library\nvtristrip;..\..\..\..\..\..\external\3rd\library\perforce\include;..\..\..\..\..\..\external\3rd\library\stlport453\stlport;..\..\..\..\..\..\external\ours\library\unicode\include;..\..\..\..\..\..\external\ours\library\fileInterface\include\public;..\..\..\..\..\client\library\clientAudio\include\public;..\..\..\..\..\client\library\clientGame\include\public;..\..\..\..\..\client\library\clientGraphics\include\public;..\..\..\..\..\client\library\clientObject\include\public;..\..\..\..\..\client\library\clientSkeletalAnimation\include\public;..\..\..\..\..\client\library\clientTerrain\include\public;..\..\..\..\..\client\library\clientTextureRenderer\include\public;..\..\..\..\..\client\library\clientUmbra\include\public;..\..\..\..\..\client\library\clientUtility\include\public;..\..\..\..\..\client\library\clientVertexAnimation\include\public;..\..\..\..\..\shared\library\sharedCollision\include\public;..\..\..\..\..\shared\library\sharedCompression\include\public;..\..\..\..\..\shared\library\sharedDatabaseInterface\include\public;..\..\..\..\..\shared\library\sharedDebug\include\public;..\..\..\..\..\shared\library\sharedFile\include\public;..\..\..\..\..\shared\library\sharedFoundation\include\public;..\..\..\..\..\shared\library\sharedFoundationTypes\include\public;..\..\..\..\..\shared\library\sharedImage\include\public;..\..\..\..\..\shared\library\sharedMath\include\public;..\..\..\..\..\shared\library\sharedMemoryBlockManager\include\public;..\..\..\..\..\shared\library\sharedMemoryManager\include\public;..\..\..\..\..\shared\library\sharedObject\include\public;..\..\..\..\..\shared\library\sharedPathfinding\include\public;..\..\..\..\..\shared\library\sharedRandom\include\public;..\..\..\..\..\shared\library\sharedStatusWindow\include\public;..\..\..\..\..\shared\library\sharedSynchronization\include\public;..\..\..\..\..\shared\library\sharedTerrain\include\public;..\..\..\..\..\shared\library\sharedThread\include\public;..\..\..\..\..\shared\library\sharedUtility\include\public;..\..\src\win32;..\..\src\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;DEBUG_LEVEL=0;NO_DATABASE=0;OS_NT;CASE_INSENSITIVE;WIN32;_WINDOWS;_USRDLL;MayaExporter_EXPORTS;NT_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>FirstMayaExporter.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../../../../../../compile/win32/MayaExporter/Release/MayaExporter.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../../../../compile/win32/MayaExporter/Release/</AssemblerListingLocation>
+      <ObjectFileName>.\../../../../../../compile/win32/MayaExporter/Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../../../../compile/win32/MayaExporter/Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>true</UseFullPaths>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>NxN_alienbrain_XDK_123.lib;Foundation.lib;OpenMaya.lib;dxguid.lib;ws2_32.lib;OpenMayaAnim.lib;dpvs.lib;atidxtc.lib;libclient.lib;oldnames.lib;wsock32.lib;librpc.lib;libsupp.lib;odbc32.lib;odbccp32.lib;Mss32.lib;oci.lib;ociw32.lib;libxml2-win32-release.lib;ati_compress.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../../../compile/win32/MayaExporter/Release/MayaExporter.mll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\..\..\external\3rd\library\alienbrain123\lib;..\..\..\..\..\..\external\3rd\library\ati_compress;..\..\..\..\..\..\external\3rd\library\atidxtc;..\..\..\..\..\..\external\3rd\library\dpvs\lib\win32-x86;..\..\..\..\..\..\external\3rd\library\libxml2-2.6.7.win32\lib;..\..\..\..\..\..\external\3rd\library\maya7\lib;..\..\..\..\..\..\external\3rd\library\mfc\lib;..\..\..\..\..\..\external\3rd\library\miles\lib\win;..\..\..\..\..\..\external\3rd\library\nvtristrip;..\..\..\..\..\..\external\3rd\library\oracle_win32\ora80\oci\lib\msvc;..\..\..\..\..\..\external\3rd\library\perforce\lib\win32;..\..\..\..\..\..\external\3rd\library\stlport453\lib\win32;..\..\..\..\..\..\external\3rd\library\zlib\lib\win32;..\..\..\..\..\..\external\3rd\library\directx9\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>.\../../../../../../compile/win32/MayaExporter/Release/MayaExporter.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\../../../../../../compile/win32/MayaExporter/Release/MayaExporter.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../../../../../../compile/win32/MayaExporter/Release/MayaExporter.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\../../../../../../compile/win32/MayaExporter/Optimized/MayaExporter.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\external\3rd\library\alienbrain123\include;..\..\..\..\..\..\external\3rd\library\ati_compress;..\..\..\..\..\..\external\3rd\library\atidxtc;..\..\..\..\..\..\external\3rd\library\atl\include;..\..\..\..\..\..\external\3rd\library\boost;..\..\..\..\..\..\external\3rd\library\maya7\include;..\..\..\..\..\..\external\3rd\library\nvtristrip;..\..\..\..\..\..\external\3rd\library\perforce\include;..\..\..\..\..\..\external\3rd\library\stlport453\stlport;..\..\..\..\..\..\external\ours\library\unicode\include;..\..\..\..\..\..\external\ours\library\fileInterface\include\public;..\..\..\..\..\client\library\clientAudio\include\public;..\..\..\..\..\client\library\clientGame\include\public;..\..\..\..\..\client\library\clientGraphics\include\public;..\..\..\..\..\client\library\clientObject\include\public;..\..\..\..\..\client\library\clientSkeletalAnimation\include\public;..\..\..\..\..\client\library\clientTerrain\include\public;..\..\..\..\..\client\library\clientTextureRenderer\include\public;..\..\..\..\..\client\library\clientUmbra\include\public;..\..\..\..\..\client\library\clientUtility\include\public;..\..\..\..\..\client\library\clientVertexAnimation\include\public;..\..\..\..\..\shared\library\sharedCollision\include\public;..\..\..\..\..\shared\library\sharedCompression\include\public;..\..\..\..\..\shared\library\sharedDatabaseInterface\include\public;..\..\..\..\..\shared\library\sharedDebug\include\public;..\..\..\..\..\shared\library\sharedFile\include\public;..\..\..\..\..\shared\library\sharedFoundation\include\public;..\..\..\..\..\shared\library\sharedFoundationTypes\include\public;..\..\..\..\..\shared\library\sharedImage\include\public;..\..\..\..\..\shared\library\sharedMath\include\public;..\..\..\..\..\shared\library\sharedMemoryBlockManager\include\public;..\..\..\..\..\shared\library\sharedMemoryManager\include\public;..\..\..\..\..\shared\library\sharedObject\include\public;..\..\..\..\..\shared\library\sharedPathfinding\include\public;..\..\..\..\..\shared\library\sharedRandom\include\public;..\..\..\..\..\shared\library\sharedStatusWindow\include\public;..\..\..\..\..\shared\library\sharedSynchronization\include\public;..\..\..\..\..\shared\library\sharedTerrain\include\public;..\..\..\..\..\shared\library\sharedThread\include\public;..\..\..\..\..\shared\library\sharedUtility\include\public;..\..\src\win32;..\..\src\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;DEBUG_LEVEL=1;NO_DATABASE=0;OS_NT;CASE_INSENSITIVE;WIN32;_WINDOWS;_USRDLL;MayaExporter_EXPORTS;NT_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>FirstMayaExporter.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../../../../../../compile/win32/MayaExporter/Optimized/MayaExporter.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../../../../compile/win32/MayaExporter/Optimized/</AssemblerListingLocation>
+      <ObjectFileName>.\../../../../../../compile/win32/MayaExporter/Optimized/</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../../../../compile/win32/MayaExporter/Optimized/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>NxN_alienbrain_XDK_123.lib;Foundation.lib;OpenMaya.lib;dxguid.lib;ws2_32.lib;OpenMayaAnim.lib;dpvs.lib;atidxtc.lib;libclient.lib;oldnames.lib;wsock32.lib;librpc.lib;libsupp.lib;odbc32.lib;odbccp32.lib;Mss32.lib;oci.lib;ociw32.lib;libxml2-win32-release.lib;ati_compress.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../../../compile/win32/MayaExporter/Optimized/MayaExporter.mll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\..\..\external\3rd\library\alienbrain123\lib;..\..\..\..\..\..\external\3rd\library\ati_compress;..\..\..\..\..\..\external\3rd\library\atidxtc;..\..\..\..\..\..\external\3rd\library\dpvs\lib\win32-x86;..\..\..\..\..\..\external\3rd\library\libxml2-2.6.7.win32\lib;..\..\..\..\..\..\external\3rd\library\maya7\lib;..\..\..\..\..\..\external\3rd\library\mfc\lib;..\..\..\..\..\..\external\3rd\library\miles\lib\win;..\..\..\..\..\..\external\3rd\library\nvtristrip;..\..\..\..\..\..\external\3rd\library\oracle_win32\ora80\oci\lib\msvc;..\..\..\..\..\..\external\3rd\library\perforce\lib\win32;..\..\..\..\..\..\external\3rd\library\stlport453\lib\win32;..\..\..\..\..\..\external\3rd\library\zlib\lib\win32;..\..\..\..\..\..\external\3rd\library\directx9\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcd;libc;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\../../../../../../compile/win32/MayaExporter/Optimized/MayaExporter.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\../../../../../../compile/win32/MayaExporter/Optimized/MayaExporter.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../../../../../../compile/win32/MayaExporter/Optimized/MayaExporter.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\../../../../../../compile/win32/MayaExporter/Debug/MayaExporter.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\external\3rd\library\directx9\include;..\..\..\..\..\..\external\3rd\library\alienbrain123\include;..\..\..\..\..\..\external\3rd\library\ati_compress;..\..\..\..\..\..\external\3rd\library\atidxtc;..\..\..\..\..\..\external\3rd\library\atl\include;..\..\..\..\..\..\external\3rd\library\boost;..\..\..\..\..\..\external\3rd\library\maya7\include;..\..\..\..\..\..\external\3rd\library\nvtristrip;..\..\..\..\..\..\external\3rd\library\perforce\include;..\..\..\..\..\..\external\3rd\library\stlport453\stlport;..\..\..\..\..\..\external\ours\library\unicode\include;..\..\..\..\..\..\external\ours\library\fileInterface\include\public;..\..\..\..\..\client\library\clientAudio\include\public;..\..\..\..\..\client\library\clientGame\include\public;..\..\..\..\..\client\library\clientGraphics\include\public;..\..\..\..\..\client\library\clientObject\include\public;..\..\..\..\..\client\library\clientSkeletalAnimation\include\public;..\..\..\..\..\client\library\clientTerrain\include\public;..\..\..\..\..\client\library\clientTextureRenderer\include\public;..\..\..\..\..\client\library\clientUmbra\include\public;..\..\..\..\..\client\library\clientUtility\include\public;..\..\..\..\..\client\library\clientVertexAnimation\include\public;..\..\..\..\..\shared\library\sharedCollision\include\public;..\..\..\..\..\shared\library\sharedCompression\include\public;..\..\..\..\..\shared\library\sharedDatabaseInterface\include\public;..\..\..\..\..\shared\library\sharedDebug\include\public;..\..\..\..\..\shared\library\sharedFile\include\public;..\..\..\..\..\shared\library\sharedFoundation\include\public;..\..\..\..\..\shared\library\sharedFoundationTypes\include\public;..\..\..\..\..\shared\library\sharedImage\include\public;..\..\..\..\..\shared\library\sharedMath\include\public;..\..\..\..\..\shared\library\sharedMemoryBlockManager\include\public;..\..\..\..\..\shared\library\sharedMemoryManager\include\public;..\..\..\..\..\shared\library\sharedObject\include\public;..\..\..\..\..\shared\library\sharedPathfinding\include\public;..\..\..\..\..\shared\library\sharedRandom\include\public;..\..\..\..\..\shared\library\sharedStatusWindow\include\public;..\..\..\..\..\shared\library\sharedSynchronization\include\public;..\..\..\..\..\shared\library\sharedTerrain\include\public;..\..\..\..\..\shared\library\sharedThread\include\public;..\..\..\..\..\shared\library\sharedUtility\include\public;..\..\src\win32;..\..\src\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;DEBUG_LEVEL=2;NO_DATABASE=0;OS_NT;CASE_INSENSITIVE;WIN32;_WINDOWS;_USRDLL;MayaExporter_EXPORTS;NT_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>FirstMayaExporter.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../../../../../../compile/win32/MayaExporter/Debug/MayaExporter.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../../../../../compile/win32/MayaExporter/Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\../../../../../../compile/win32/MayaExporter/Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../../../../../compile/win32/MayaExporter/Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <UseFullPaths>true</UseFullPaths>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ati_compress.lib;NxN_alienbrain_XDK_123.lib;Foundation.lib;OpenMaya.lib;dxguid.lib;ws2_32.lib;OpenMayaAnim.lib;dpvs.lib;atidxtc.lib;libclient.lib;oldnames.lib;wsock32.lib;librpc.lib;libsupp.lib;odbc32.lib;odbccp32.lib;Mss32.lib;oci.lib;ociw32.lib;libxml2-win32-release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>c:\program files\Alias\Maya7.0\bin\plug-ins\MayaExporter.mll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\..\..\..\external\3rd\library\alienbrain123\lib;..\..\..\..\..\..\external\3rd\library\ati_compress;..\..\..\..\..\..\external\3rd\library\atidxtc;..\..\..\..\..\..\external\3rd\library\dpvs\lib\win32-x86;..\..\..\..\..\..\external\3rd\library\libxml2-2.6.7.win32\lib;..\..\..\..\..\..\external\3rd\library\maya7\lib;..\..\..\..\..\..\external\3rd\library\mfc\lib;..\..\..\..\..\..\external\3rd\library\miles\lib\win;..\..\..\..\..\..\external\3rd\library\nvtristrip;..\..\..\..\..\..\external\3rd\library\oracle_win32\ora80\oci\lib\msvc;..\..\..\..\..\..\external\3rd\library\perforce\lib\win32;..\..\..\..\..\..\external\3rd\library\stlport453\lib\win32;..\..\..\..\..\..\external\3rd\library\zlib\lib\win32;..\..\..\..\..\..\external\3rd\library\directx9\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcd;libc;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\../../../../../../compile/win32/MayaExporter/Debug/MayaExporter.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\../../../../../../compile/win32/MayaExporter/Debug/MayaExporter.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../../../../../../compile/win32/MayaExporter/Debug/MayaExporter.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\shared\DoubleVector.cpp" />
+    <ClCompile Include="..\..\src\shared\NormalMapUtility.cpp" />
+    <ClCompile Include="..\..\src\shared\TriangleRasterizer.cpp" />
+    <ClCompile Include="..\..\src\win32\AddAnimationCommand.cpp" />
+    <ClCompile Include="..\..\src\win32\AlienbrainConnection.cpp" />
+    <ClCompile Include="..\..\src\win32\AlienbrainImporter.cpp" />
+    <ClCompile Include="..\..\src\win32\AnimationMessageCollector.cpp" />
+    <ClCompile Include="..\..\src\win32\CollisionBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\ComponentAppearanceBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\CreateTransformMask.cpp" />
+    <ClCompile Include="..\..\src\win32\DatabaseImporter.cpp" />
+    <ClCompile Include="..\..\src\win32\DeleteAnimationCommand.cpp" />
+    <ClCompile Include="..\..\src\win32\DetailAppearanceBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportArgs.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportCommand.cpp" />
+    <ClCompile Include="..\..\src\win32\ExporterLog.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportKeyframeSkeletalAnimation.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportManager.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportSkeletalAppearanceTemplate.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportSkeletalMeshGenerator.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportSkeleton.cpp" />
+    <ClCompile Include="..\..\src\win32\ExportStaticMesh.cpp" />
+    <ClCompile Include="..\..\src\win32\FirstMayaExporter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\FloorBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\KeyframeSkeletalAnimationTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\LodMeshGeneratorTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\LodSkeletonTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\LogWindowMessenger.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaAnimatingTextureShaderTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaAnimationList.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaCompoundString.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaConversions.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaCustomizableShaderTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaExporterQuery.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaHierarchy.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaIndexedTriangleList.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaLightMeshReader.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaMeshReader.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaMeshWeighting.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaMisc.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaOwnerProxyShaderTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaPerPixelLighting.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaShaderReader.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaShaderTemplateBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaStaticShaderTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\MayaUtility.cpp" />
+    <ClCompile Include="..\..\src\win32\MeshBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\Messenger.cpp" />
+    <ClCompile Include="..\..\src\win32\OccludedFaceMapGenerator.cpp" />
+    <ClCompile Include="..\..\src\win32\PerforceImporter.cpp" />
+    <ClCompile Include="..\..\src\win32\PluginMain.cpp" />
+    <ClCompile Include="..\..\src\win32\ReexportCommand.cpp" />
+    <ClCompile Include="..\..\src\win32\SetAuthorCommand.cpp" />
+    <ClCompile Include="..\..\src\win32\SetBaseDirectory.cpp" />
+    <ClCompile Include="..\..\src\win32\SetDirectoryCommand.cpp" />
+    <ClCompile Include="..\..\src\win32\ShaderPrimitiveSetWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\SkeletalMeshGeneratorWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\SkeletonTemplateWriter.cpp" />
+    <ClCompile Include="..\..\src\win32\StaticMeshBuilder.cpp" />
+    <ClCompile Include="..\..\src\win32\UniqueVertexSet.cpp" />
+    <ClCompile Include="..\..\src\win32\VertexIndexer.cpp" />
+    <ClCompile Include="..\..\src\win32\VisitAnimationCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\shared\DoubleVector.h" />
+    <ClInclude Include="..\..\src\shared\NormalMapUtility.h" />
+    <ClInclude Include="..\..\src\shared\TriangleRasterizer.h" />
+    <ClInclude Include="..\..\src\win32\AddAnimationCommand.h" />
+    <ClInclude Include="..\..\src\win32\AlienbrainConnection.h" />
+    <ClInclude Include="..\..\src\win32\AlienbrainImporter.h" />
+    <ClInclude Include="..\..\src\win32\AnimationMessageCollector.h" />
+    <ClInclude Include="..\..\src\win32\CollisionBuilder.h" />
+    <ClInclude Include="..\..\src\win32\ComponentAppearanceBuilder.h" />
+    <ClInclude Include="..\..\src\win32\CreateTransformMask.h" />
+    <ClInclude Include="..\..\src\win32\DatabaseImporter.h" />
+    <ClInclude Include="..\..\src\win32\DeleteAnimationCommand.h" />
+    <ClInclude Include="..\..\src\win32\DetailAppearanceBuilder.h" />
+    <ClInclude Include="..\..\src\win32\ExportArgs.h" />
+    <ClInclude Include="..\..\src\win32\ExportCommand.h" />
+    <ClInclude Include="..\..\src\win32\ExporterLog.h" />
+    <ClInclude Include="..\..\src\win32\ExportKeyframeSkeletalAnimation.h" />
+    <ClInclude Include="..\..\src\win32\ExportManager.h" />
+    <ClInclude Include="..\..\src\win32\ExportSkeletalAppearanceTemplate.h" />
+    <ClInclude Include="..\..\src\win32\ExportSkeletalMeshGenerator.h" />
+    <ClInclude Include="..\..\src\win32\ExportSkeleton.h" />
+    <ClInclude Include="..\..\src\win32\ExportStaticMesh.h" />
+    <ClInclude Include="..\..\src\win32\FirstMayaExporter.h" />
+    <ClInclude Include="..\..\src\win32\FloorBuilder.h" />
+    <ClInclude Include="..\..\src\win32\gumi_atoi.h" />
+    <ClInclude Include="..\..\src\win32\KeyframeSkeletalAnimationTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\LodMeshGeneratorTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\LodSkeletonTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\LogWindowMessenger.h" />
+    <ClInclude Include="..\..\src\win32\MayaAnimatingTextureShaderTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\MayaAnimationList.h" />
+    <ClInclude Include="..\..\src\win32\MayaCompoundString.h" />
+    <ClInclude Include="..\..\src\win32\MayaConversions.h" />
+    <ClInclude Include="..\..\src\win32\MayaCustomizableShaderTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\MayaExporterQuery.h" />
+    <ClInclude Include="..\..\src\win32\MayaHierarchy.h" />
+    <ClInclude Include="..\..\src\win32\MayaIndexedTriangleList.h" />
+    <ClInclude Include="..\..\src\win32\MayaLightMeshReader.h" />
+    <ClInclude Include="..\..\src\win32\MayaMeshReader.h" />
+    <ClInclude Include="..\..\src\win32\MayaMeshWeighting.h" />
+    <ClInclude Include="..\..\src\win32\MayaMisc.h" />
+    <ClInclude Include="..\..\src\win32\MayaOwnerProxyShaderTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\MayaPerPixelLighting.h" />
+    <ClInclude Include="..\..\src\win32\MayaShaderReader.h" />
+    <ClInclude Include="..\..\src\win32\MayaShaderTemplateBuilder.h" />
+    <ClInclude Include="..\..\src\win32\MayaShaderTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\MayaStaticShaderTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\MayaUtility.h" />
+    <ClInclude Include="..\..\src\win32\MeshBuilder.h" />
+    <ClInclude Include="..\..\src\win32\Messenger.h" />
+    <ClInclude Include="..\..\src\win32\NotSoSmartPointer.h" />
+    <ClInclude Include="..\..\src\win32\OccludedFaceMapGenerator.h" />
+    <ClInclude Include="..\..\src\win32\PerforceImporter.h" />
+    <ClInclude Include="..\..\src\win32\PluginMain.h" />
+    <ClInclude Include="..\..\src\win32\ReexportCommand.h" />
+    <ClInclude Include="..\..\src\win32\resource.h" />
+    <ClInclude Include="..\..\src\win32\SetAuthorCommand.h" />
+    <ClInclude Include="..\..\src\win32\SetBaseDirectory.h" />
+    <ClInclude Include="..\..\src\win32\SetDirectoryCommand.h" />
+    <ClInclude Include="..\..\src\win32\ShaderPrimitiveSetWriter.h" />
+    <ClInclude Include="..\..\src\win32\SinglyLinkedList.h" />
+    <ClInclude Include="..\..\src\win32\SkeletalMeshGeneratorWriter.h" />
+    <ClInclude Include="..\..\src\win32\SkeletonTemplateWriter.h" />
+    <ClInclude Include="..\..\src\win32\StaticMeshBuilder.h" />
+    <ClInclude Include="..\..\src\win32\UniqueVertexSet.h" />
+    <ClInclude Include="..\..\src\win32\VersionFile.h" />
+    <ClInclude Include="..\..\src\win32\VertexIndexer.h" />
+    <ClInclude Include="..\..\src\win32\VisitAnimationCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\win32\MayaExporter.rc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\src\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">..\..\src\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\src\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="project.lnt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

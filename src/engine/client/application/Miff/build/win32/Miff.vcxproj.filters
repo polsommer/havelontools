@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f4a81bd2-c4b8-4935-992e-830d716c88e2}</UniqueIdentifier>
+      <Extensions>c;cpp;cxx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{61c3331d-158c-4a04-a39d-1973712534aa}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+    <Filter Include="Lex and Yacc">
+      <UniqueIdentifier>{6a3d5b52-becd-462f-a37f-ee7261df8929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{a73e9a63-1b32-4b97-ab47-81e79b39646e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\win32\InputFileHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\miff.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\OutputFileHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\Miff\lex_yy.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\Miff\parser.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\win32\InputFileHandler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\OutputFileHandler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\Miff\parser.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\win32\parser.lex">
+      <Filter>Lex and Yacc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\parser.yac">
+      <Filter>Lex and Yacc</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

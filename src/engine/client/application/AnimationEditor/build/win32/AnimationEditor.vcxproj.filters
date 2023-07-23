@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ee4e75d9-6131-45e2-9116-c834e70bf0c1}</UniqueIdentifier>
+      <Extensions>cpp;c;rc</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ee6d5b6a-499c-481c-9d62-5ee5f158a15b}</UniqueIdentifier>
+      <Extensions>def;h;hpp;inl</Extensions>
+    </Filter>
+    <Filter Include="Ui Files">
+      <UniqueIdentifier>{eeaf7ee0-579e-4b49-922e-112f75e5b030}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Ui Generated Files">
+      <UniqueIdentifier>{e61c698c-f3a4-4dca-bcff-bb87ae02ebaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug">
+      <UniqueIdentifier>{0ba94393-d5f5-452a-80cc-6a5abb302596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Source Files">
+      <UniqueIdentifier>{c22da239-d3db-4c9a-a3d2-f8683f095f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Header Files">
+      <UniqueIdentifier>{2809576b-7cea-4e9a-b9cb-79b428782f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized">
+      <UniqueIdentifier>{b4e41b71-e072-4c3b-a6e1-a157a321e839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Source Files">
+      <UniqueIdentifier>{b58532cb-bc39-4a1c-8c8c-9911f2ab1661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Header Files">
+      <UniqueIdentifier>{16b16303-cf02-44de-b81a-8a595f25e837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release">
+      <UniqueIdentifier>{ae64a789-71cd-467b-8fc2-113dc091368c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Source Files">
+      <UniqueIdentifier>{c806c19f-5215-45a6-adfd-047de36b9fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Header Files">
+      <UniqueIdentifier>{5594df97-3636-4a9b-a44e-2fca04cad297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{40e5a9e2-ad44-42c3-886f-43940b357d75}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{a768bf2b-8f3b-44f3-b087-f7c283913714}</UniqueIdentifier>
+      <Extensions>template</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\shared\ashFormat\ActionAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\ActionGeneratorListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\ActionGroupListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\ActionGroupRootListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\ActionListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\AnimationEditorGameWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\AnimationEditorGameWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\AnimationEditorMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\AnimationPriorityListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\AnimationStateHierarchyWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\AshFormatUiBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\BasicFileModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\CreateStateLinkAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\DetailStateListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\DirectionAnimationChoiceListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\DirectionAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\EditorListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\EmbeddedImageLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\EmbeddedImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\FileModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\FindDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\FindReplaceDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\FirstAnimationEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\FolderListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\IdleTextListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\LatEntryFolderListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\LatFormatUiBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\LinkAnimationTextListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\ListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\ListItemAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\LogicalAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\LogicalAnimationTableWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\MovementActionListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\PriorityBlendAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\PriorityGroupListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\ProxyAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtActionGeneratorSkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtDirectionSkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtPriorityBlendAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtProxySkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtSpeedSkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtStringSelectorSkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtTimeScaleSkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\QtYawSkeletalAnimationTemplateUiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\SkeletalAnimationTemplateFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\SpeedAnimationChoiceListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\SpeedAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ashFormat\StateLinkListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\StringSelectorAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\StringSelectorChoiceListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\StringSelectorVarNameListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\SystemInstaller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\core\TextListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\TimeScaleAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\latFormat\YawAnimationListItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseAnimationStateHierarchyWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseFindDialog_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseFindReplaceDialog_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseLogicalAnimationTableWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseMainWindow_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseAnimationStateHierarchyWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseFindDialog_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseFindReplaceDialog_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseLogicalAnimationTableWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseMainWindow_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseAnimationStateHierarchyWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseFindDialog_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseFindReplaceDialog_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseLogicalAnimationTableWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseMainWindow_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\shared\ashFormat\ActionAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\AnimationEditorGameWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\AnimationPriorityListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ashFormat\AnimationStateHierarchyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ashFormat\AshFormatUiBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\BasicFileModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ashFormat\CreateStateLinkAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\DirectionAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\EditorListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\EmbeddedImageLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\FileModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\FirstAnimationEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\FolderListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ashFormat\IdleTextListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\LatEntryFolderListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\LatFormatUiBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ashFormat\LinkAnimationTextListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\ListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\ListItemAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtActionGeneratorSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtDirectionSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtPriorityBlendAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtProxySkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtSpeedSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtStringSelectorSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtTimeScaleSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\QtYawSkeletalAnimationTemplateUiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\SkeletalAnimationTemplateFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\StringSelectorVarNameListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\SystemInstaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\latFormat\TemplatedAnimationTemplateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\core\TextListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseAnimationStateHierarchyWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseFindDialog.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseFindReplaceDialog.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseLogicalAnimationTableWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Debug\BaseMainWindow.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseAnimationStateHierarchyWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseFindDialog.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseFindReplaceDialog.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseLogicalAnimationTableWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Optimized\BaseMainWindow.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseAnimationStateHierarchyWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseFindDialog.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseFindReplaceDialog.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseLogicalAnimationTableWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\AnimationEditor\Release\BaseMainWindow.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\shared\latFormat\ActionGeneratorListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ashFormat\ActionGroupListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ashFormat\ActionGroupRootListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ashFormat\ActionListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\core\AnimationEditorGameWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ashFormat\DetailStateListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\DirectionAnimationChoiceListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\images\DummyImageTarget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\core\FindDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\core\FindReplaceDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\LogicalAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\LogicalAnimationTableWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ashFormat\MovementActionListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\PriorityBlendAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\PriorityGroupListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\ProxyAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\SpeedAnimationChoiceListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\SpeedAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\ashFormat\StateLinkListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\StringSelectorAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\StringSelectorChoiceListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\TimeScaleAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\shared\latFormat\YawAnimationListItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseAnimationStateHierarchyWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseFindDialog.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseFindReplaceDialog.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseLogicalAnimationTableWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseMainWindow.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

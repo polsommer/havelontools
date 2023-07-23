@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5ec76f18-176d-4c33-8af1-5d6b352ce958}</UniqueIdentifier>
+      <Extensions>cpp;c;rc</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8d107a31-734a-4f69-b682-6c0f6e6a58bf}</UniqueIdentifier>
+      <Extensions>def;h;hpp;inl</Extensions>
+    </Filter>
+    <Filter Include="Ui Files">
+      <UniqueIdentifier>{f52c6763-1f41-4a5e-a1fd-f347ff49ca83}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Ui Generated Files">
+      <UniqueIdentifier>{5ac4c306-2c54-4bd7-900b-88a897db7a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug">
+      <UniqueIdentifier>{047f6347-de75-4161-976b-6828f04d2a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Source Files">
+      <UniqueIdentifier>{492717ee-fec4-4ed4-865a-a3ab55b16a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Debug\Debug Ui Header Files">
+      <UniqueIdentifier>{5d6bda62-b9a2-44d1-8cd5-66784b1ade10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized">
+      <UniqueIdentifier>{003b81fe-2bbc-4b30-87c4-2ebd020c766d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Source Files">
+      <UniqueIdentifier>{8cb1d9c6-ce15-49a8-9d4a-4fc616487a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Optimized\Optimized Ui Header Files">
+      <UniqueIdentifier>{88111d18-ccd5-4963-a247-773c2c7a4836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release">
+      <UniqueIdentifier>{c2ebb31d-a8a8-4a9d-a8ed-2208f93d9246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Source Files">
+      <UniqueIdentifier>{05a103be-19af-4cfd-be06-b5661e95fe46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui Generated Files\Release\Release Ui Header Files">
+      <UniqueIdentifier>{1a0c8579-159a-4dcc-93f9-caa2ca2c325a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{253fd894-0a3c-46ec-8303-b4498a5cb318}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{a0c464f0-c016-4f7a-860c-f2f3eb06e32d}</UniqueIdentifier>
+      <Extensions>template</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\win32\AudioDebugWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\FirstSoundEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\SoundDebugInformationWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\SoundEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\SoundEditorUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\SoundGroupTemplateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\SoundTemplateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseAudioDebugWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundDebugInformationWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundEditor_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundGroupTemplateWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundTemplateWidget_d.cpp">
+      <Filter>Ui Generated Files\Debug\Debug Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseAudioDebugWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundDebugInformationWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundEditor_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundGroupTemplateWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundTemplateWidget_o.cpp">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseAudioDebugWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundDebugInformationWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundEditor_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundGroupTemplateWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundTemplateWidget_r.cpp">
+      <Filter>Ui Generated Files\Release\Release Ui Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\win32\FirstSoundEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\SoundEditorUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseAudioDebugWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundDebugInformationWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundEditor.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundGroupTemplateWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Debug\BaseSoundTemplateWidget.h">
+      <Filter>Ui Generated Files\Debug\Debug Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseAudioDebugWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundDebugInformationWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundEditor.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundGroupTemplateWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Optimized\BaseSoundTemplateWidget.h">
+      <Filter>Ui Generated Files\Optimized\Optimized Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseAudioDebugWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundDebugInformationWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundEditor.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundGroupTemplateWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\compile\win32\SoundEditor\Release\BaseSoundTemplateWidget.h">
+      <Filter>Ui Generated Files\Release\Release Ui Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\win32\AudioDebugWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\SoundDebugInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\SoundEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\SoundGroupTemplateWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\win32\SoundTemplateWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseAudioDebugWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundDebugInformationWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundEditor.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundGroupTemplateWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\ui\BaseSoundTemplateWidget.ui">
+      <Filter>Ui Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

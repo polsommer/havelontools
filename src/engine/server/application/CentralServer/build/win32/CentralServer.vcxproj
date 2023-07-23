@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Optimized|Win32">
+      <Configuration>Optimized</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D5CA7486-D01E-4DCB-883B-8E60F7F64D26}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\..\..\compile\win32\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\compile\win32\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">
+    <OutDir>..\..\..\..\..\..\compile\win32\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\compile\win32\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\..\..\compile\win32\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\compile\win32\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\engine\server\library\serverKeyShare\include\public;..\..\..\..\..\..\engine\server\library\serverMetrics\include\public;..\..\..\..\..\..\engine\server\library\serverNetworkMessages\include\public;..\..\..\..\..\..\engine\server\library\serverUtility\include\public;..\..\..\..\..\..\engine\shared\library\sharedCompression\include\public;..\..\..\..\..\..\engine\shared\library\sharedCommandParser\include\public;..\..\..\..\..\..\engine\shared\library\sharedDebug\include\public;..\..\..\..\..\..\engine\shared\library\sharedFile\include\public;..\..\..\..\..\..\engine\shared\library\sharedFoundation\include\public;..\..\..\..\..\..\engine\shared\library\sharedFoundationTypes\include\public;..\..\..\..\..\..\engine\shared\library\sharedLog\include\public;..\..\..\..\..\..\engine\shared\library\sharedMath\include\public;..\..\..\..\..\..\engine\shared\library\sharedMathArchive\include\public;..\..\..\..\..\..\engine\shared\library\sharedMemoryManager\include\public;..\..\..\..\..\..\engine\shared\library\sharedMessageDispatch\include\public;..\..\..\..\..\..\engine\shared\library\sharedNetwork\include\public;..\..\..\..\..\..\engine\shared\library\sharedNetworkMessages\include\public;..\..\..\..\..\..\engine\shared\library\sharedRandom\include\public;..\..\..\..\..\..\engine\shared\library\sharedSynchronization\include\public;..\..\..\..\..\..\engine\shared\library\sharedThread\include\public;..\..\..\..\..\..\engine\shared\library\sharedUtility\include\public;..\..\..\..\..\..\external\3rd\library\stlport453\stlport;..\..\..\..\..\..\external\ours\library\archive\include;..\..\..\..\..\..\external\ours\library\fileInterface\include\public;..\..\..\..\..\..\external\ours\library\localization\include;..\..\..\..\..\..\external\ours\library\localizationArchive\include\public;..\..\..\..\..\..\external\ours\library\singleton\include;..\..\..\..\..\..\external\ours\library\unicode\include;..\..\..\..\..\..\external\ours\library\unicodeArchive\include\public;..\..\src\shared;..\..\src\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_MBCS;DEBUG_LEVEL=2;_CRT_SECURE_NO_DEPRECATE=1;_USE_32BIT_TIME_T=1;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderFile>FirstCentralServer.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(OutDir)</AssemblerListingLocation>
+      <ObjectFileName>$(OutDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName)_d.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <UseFullPaths>true</UseFullPaths>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;zlib.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\..\external\3rd\library\stlport453\lib\win32;..\..\..\..\..\..\external\3rd\library\zlib\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmt;libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName)_d.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\engine\server\library\serverKeyShare\include\public;..\..\..\..\..\..\engine\server\library\serverMetrics\include\public;..\..\..\..\..\..\engine\server\library\serverNetworkMessages\include\public;..\..\..\..\..\..\engine\server\library\serverUtility\include\public;..\..\..\..\..\..\engine\shared\library\sharedCompression\include\public;..\..\..\..\..\..\engine\shared\library\sharedCommandParser\include\public;..\..\..\..\..\..\engine\shared\library\sharedDebug\include\public;..\..\..\..\..\..\engine\shared\library\sharedFile\include\public;..\..\..\..\..\..\engine\shared\library\sharedFoundation\include\public;..\..\..\..\..\..\engine\shared\library\sharedFoundationTypes\include\public;..\..\..\..\..\..\engine\shared\library\sharedLog\include\public;..\..\..\..\..\..\engine\shared\library\sharedMath\include\public;..\..\..\..\..\..\engine\shared\library\sharedMathArchive\include\public;..\..\..\..\..\..\engine\shared\library\sharedMemoryManager\include\public;..\..\..\..\..\..\engine\shared\library\sharedMessageDispatch\include\public;..\..\..\..\..\..\engine\shared\library\sharedNetwork\include\public;..\..\..\..\..\..\engine\shared\library\sharedNetworkMessages\include\public;..\..\..\..\..\..\engine\shared\library\sharedRandom\include\public;..\..\..\..\..\..\engine\shared\library\sharedSynchronization\include\public;..\..\..\..\..\..\engine\shared\library\sharedThread\include\public;..\..\..\..\..\..\engine\shared\library\sharedUtility\include\public;..\..\..\..\..\..\external\3rd\library\stlport453\stlport;..\..\..\..\..\..\external\ours\library\archive\include;..\..\..\..\..\..\external\ours\library\fileInterface\include\public;..\..\..\..\..\..\external\ours\library\localization\include;..\..\..\..\..\..\external\ours\library\localizationArchive\include\public;..\..\..\..\..\..\external\ours\library\singleton\include;..\..\..\..\..\..\external\ours\library\unicode\include;..\..\..\..\..\..\external\ours\library\unicodeArchive\include\public;..\..\src\shared;..\..\src\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_MBCS;DEBUG_LEVEL=1;_CRT_SECURE_NO_DEPRECATE=1;_USE_32BIT_TIME_T=1;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderFile>FirstCentralServer.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(OutDir)</AssemblerListingLocation>
+      <ObjectFileName>$(OutDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName)_o.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <UseFullPaths>true</UseFullPaths>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;zlib.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_o.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\..\external\3rd\library\stlport453\lib\win32;..\..\..\..\..\..\external\3rd\library\zlib\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmt;libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName)_o.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\engine\server\library\serverKeyShare\include\public;..\..\..\..\..\..\engine\server\library\serverMetrics\include\public;..\..\..\..\..\..\engine\server\library\serverNetworkMessages\include\public;..\..\..\..\..\..\engine\server\library\serverUtility\include\public;..\..\..\..\..\..\engine\shared\library\sharedCompression\include\public;..\..\..\..\..\..\engine\shared\library\sharedCommandParser\include\public;..\..\..\..\..\..\engine\shared\library\sharedDebug\include\public;..\..\..\..\..\..\engine\shared\library\sharedFile\include\public;..\..\..\..\..\..\engine\shared\library\sharedFoundation\include\public;..\..\..\..\..\..\engine\shared\library\sharedFoundationTypes\include\public;..\..\..\..\..\..\engine\shared\library\sharedLog\include\public;..\..\..\..\..\..\engine\shared\library\sharedMath\include\public;..\..\..\..\..\..\engine\shared\library\sharedMathArchive\include\public;..\..\..\..\..\..\engine\shared\library\sharedMemoryManager\include\public;..\..\..\..\..\..\engine\shared\library\sharedMessageDispatch\include\public;..\..\..\..\..\..\engine\shared\library\sharedNetwork\include\public;..\..\..\..\..\..\engine\shared\library\sharedNetworkMessages\include\public;..\..\..\..\..\..\engine\shared\library\sharedRandom\include\public;..\..\..\..\..\..\engine\shared\library\sharedSynchronization\include\public;..\..\..\..\..\..\engine\shared\library\sharedThread\include\public;..\..\..\..\..\..\engine\shared\library\sharedUtility\include\public;..\..\..\..\..\..\external\3rd\library\stlport453\stlport;..\..\..\..\..\..\external\ours\library\archive\include;..\..\..\..\..\..\external\ours\library\fileInterface\include\public;..\..\..\..\..\..\external\ours\library\localization\include;..\..\..\..\..\..\external\ours\library\localizationArchive\include\public;..\..\..\..\..\..\external\ours\library\singleton\include;..\..\..\..\..\..\external\ours\library\unicode\include;..\..\..\..\..\..\external\ours\library\unicodeArchive\include\public;..\..\src\shared;..\..\src\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_MBCS;DEBUG_LEVEL=0;_CRT_SECURE_NO_DEPRECATE=1;_USE_32BIT_TIME_T=1;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderFile>FirstCentralServer.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(OutDir)</AssemblerListingLocation>
+      <ObjectFileName>$(OutDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName)_r.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <UseFullPaths>true</UseFullPaths>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;zlib.lib;mswsock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_r.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\..\..\external\3rd\library\stlport453\lib\win32;..\..\..\..\..\..\external\3rd\library\zlib\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName)_r.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\shared\AuctionTransferClient.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\ATGenericAPI\GenericApiCore.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\ATGenericAPI\GenericConnection.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\ATGenericAPI\GenericMessage.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\AuctionTransferAPI.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\AuctionTransferAPICore.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\Base\Archive.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\Base\win32\Platform.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\Character.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\Request.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\Response.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\Clock.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\IPAddress.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpBlockAllocator.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpConnection.cpp" />
+    <ClCompile Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpManager.cpp" />
+    <ClCompile Include="..\..\src\shared\CentralCSHandler.cpp" />
+    <ClCompile Include="..\..\src\shared\CentralServer.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\CentralServerMetricsData.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\CharacterCreationTracker.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ChatServerConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConfigCentralServer.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConnectionServerConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConsoleCommandParser.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConsoleCommandParserDatabase.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConsoleCommandParserGame.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConsoleCommandParserLoginServer.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConsoleConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ConsoleManager.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\CustomerServiceConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\GameServerConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\LoginServerConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\PlanetManager.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\PlanetServerConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\StationPlayersCollectorConnection.cpp" />
+    <ClCompile Include="..\..\src\shared\TaskConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\TransferServerConnection.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\UniverseManager.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\FirstCentralServer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\WinMain.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Optimized|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\shared\AuctionTransferClient.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\ATGenericAPI\GenericApiCore.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\ATGenericAPI\GenericConnection.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\ATGenericAPI\GenericMessage.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\AuctionTransferAPI.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\AuctionTransferAPICore.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\AuctionTransferEnum.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\Base\win32\Archive.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\Base\win32\Platform.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\Base\win32\Types.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\Character.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\Request.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\Response.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\Clock.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\IPAddress.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpBlockAllocator.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpConnection.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpHandlers.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\TcpLibrary\TcpManager.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\GZipHelper.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\deflate.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\infblock.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\infcodes.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\inffast.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\inffixed.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\inftrees.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\infutil.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\trees.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\zconf.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\zlib.h" />
+    <ClInclude Include="..\..\src\shared\AuctionTransferGameAPI\zip\Zip\zutil.h" />
+    <ClInclude Include="..\..\src\shared\CentralCSHandler.h" />
+    <ClInclude Include="..\..\src\shared\CentralServer.h" />
+    <ClInclude Include="..\..\src\shared\CentralServerMetricsData.h" />
+    <ClInclude Include="..\..\src\shared\CharacterCreationTracker.h" />
+    <ClInclude Include="..\..\src\shared\ChatServerConnection.h" />
+    <ClInclude Include="..\..\src\shared\ConfigCentralServer.h" />
+    <ClInclude Include="..\..\src\shared\ConnectionServerConnection.h" />
+    <ClInclude Include="..\..\src\shared\ConsoleCommandParser.h" />
+    <ClInclude Include="..\..\src\shared\ConsoleCommandParserDatabase.h" />
+    <ClInclude Include="..\..\src\shared\ConsoleCommandParserGame.h" />
+    <ClInclude Include="..\..\src\shared\ConsoleCommandParserLoginServer.h" />
+    <ClInclude Include="..\..\src\shared\ConsoleConnection.h" />
+    <ClInclude Include="..\..\src\shared\ConsoleManager.h" />
+    <ClInclude Include="..\..\src\shared\CustomerServiceConnection.h" />
+    <ClInclude Include="..\..\src\shared\FirstCentralServer.h" />
+    <ClInclude Include="..\..\src\shared\GameServerConnection.h" />
+    <ClInclude Include="..\..\src\shared\LoginServerConnection.h" />
+    <ClInclude Include="..\..\src\shared\PlanetManager.h" />
+    <ClInclude Include="..\..\src\shared\PlanetServerConnection.h" />
+    <ClInclude Include="..\..\src\shared\StationPlayersCollectorConnection.h" />
+    <ClInclude Include="..\..\src\shared\TaskConnection.h" />
+    <ClInclude Include="..\..\src\shared\TransferServerConnection.h" />
+    <ClInclude Include="..\..\src\shared\UniverseManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
